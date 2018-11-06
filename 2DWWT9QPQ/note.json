@@ -3,7 +3,7 @@
     {
       "text": "val sparkLicTextFilePath \u003d \"/home/tt/Software/spark-2.3.2-bin-hadoop2.7/LICENSE\";",
       "user": "anonymous",
-      "dateUpdated": "2018-11-06 00:26:16.383",
+      "dateUpdated": "2018-11-07 00:04:37.062",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -34,8 +34,8 @@
       "jobName": "paragraph_1541437511611_-903353569",
       "id": "20181106-000511_1944633923",
       "dateCreated": "2018-11-06 00:05:11.611",
-      "dateStarted": "2018-11-06 00:26:16.404",
-      "dateFinished": "2018-11-06 00:26:40.347",
+      "dateStarted": "2018-11-07 00:04:37.110",
+      "dateFinished": "2018-11-07 00:04:37.473",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -163,18 +163,6 @@
           }
         ]
       },
-      "runtimeInfos": {
-        "jobUrl": {
-          "propertyName": "jobUrl",
-          "label": "SPARK JOB",
-          "tooltip": "View in Spark web UI",
-          "group": "spark",
-          "values": [
-            "http://192.168.0.108:4040/jobs/job?id\u003d0"
-          ],
-          "interpreterSettingId": "spark"
-        }
-      },
       "apps": [],
       "jobName": "paragraph_1541438918535_-1253422449",
       "id": "20181106-002838_1262090692",
@@ -294,18 +282,6 @@
           }
         ]
       },
-      "runtimeInfos": {
-        "jobUrl": {
-          "propertyName": "jobUrl",
-          "label": "SPARK JOB",
-          "tooltip": "View in Spark web UI",
-          "group": "spark",
-          "values": [
-            "http://192.168.0.108:4040/jobs/job?id\u003d1"
-          ],
-          "interpreterSettingId": "spark"
-        }
-      },
       "apps": [],
       "jobName": "paragraph_1541439002699_-391449519",
       "id": "20181106-003002_805758936",
@@ -340,18 +316,6 @@
         "code": "SUCCESS",
         "msg": []
       },
-      "runtimeInfos": {
-        "jobUrl": {
-          "propertyName": "jobUrl",
-          "label": "SPARK JOB",
-          "tooltip": "View in Spark web UI",
-          "group": "spark",
-          "values": [
-            "http://192.168.0.108:4040/jobs/job?id\u003d3"
-          ],
-          "interpreterSettingId": "spark"
-        }
-      },
       "apps": [],
       "jobName": "paragraph_1541439022978_269269332",
       "id": "20181106-003022_254503054",
@@ -364,7 +328,7 @@
     {
       "text": "println(\"I am Pusheen the cat\")",
       "user": "anonymous",
-      "dateUpdated": "2018-11-06 00:31:58.126",
+      "dateUpdated": "2018-11-06 23:40:39.291",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -395,8 +359,8 @@
       "jobName": "paragraph_1541439083095_-1272428699",
       "id": "20181106-003123_635025284",
       "dateCreated": "2018-11-06 00:31:23.095",
-      "dateStarted": "2018-11-06 00:31:58.166",
-      "dateFinished": "2018-11-06 00:31:58.725",
+      "dateStarted": "2018-11-06 23:40:39.349",
+      "dateFinished": "2018-11-06 23:40:40.153",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -430,6 +394,602 @@
           }
         ]
       },
+      "apps": [],
+      "jobName": "paragraph_1541439118126_-431683092",
+      "id": "20181106-003158_145943847",
+      "dateCreated": "2018-11-06 00:31:58.126",
+      "dateStarted": "2018-11-06 00:32:10.553",
+      "dateFinished": "2018-11-06 00:32:11.464",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### 2.3 basic RDD actions and transformations",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-06 23:55:42.491",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003e2.3 basic RDD actions and transformations\u003c/h3\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1541439130502_804679844",
+      "id": "20181106-003210_1162700618",
+      "dateCreated": "2018-11-06 00:32:10.502",
+      "dateStarted": "2018-11-06 23:55:42.501",
+      "dateFinished": "2018-11-06 23:55:42.554",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "sc",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-06 23:40:42.323",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "res10: org.apache.spark.SparkContext \u003d org.apache.spark.SparkContext@490a0b15\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1541522376764_-1741386218",
+      "id": "20181106-233936_593129939",
+      "dateCreated": "2018-11-06 23:39:36.764",
+      "dateStarted": "2018-11-06 23:40:42.383",
+      "dateFinished": "2018-11-06 23:40:43.159",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "val numbers \u003d sc.parallelize(10 to 50 by 10)\n",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-06 23:40:44.794",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "numbers: org.apache.spark.rdd.RDD[Int] \u003d ParallelCollectionRDD[3] at parallelize at \u003cconsole\u003e:25\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1541522399186_-489950039",
+      "id": "20181106-233959_479879779",
+      "dateCreated": "2018-11-06 23:39:59.186",
+      "dateStarted": "2018-11-06 23:40:44.842",
+      "dateFinished": "2018-11-06 23:40:45.693",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "val numbersSq \u003d numbers.map(num \u003d\u003e num * num)",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-06 23:41:07.497",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "numbersSq: org.apache.spark.rdd.RDD[Int] \u003d MapPartitionsRDD[4] at map at \u003cconsole\u003e:27\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1541522427023_137181266",
+      "id": "20181106-234027_1538582573",
+      "dateCreated": "2018-11-06 23:40:27.023",
+      "dateStarted": "2018-11-06 23:41:07.573",
+      "dateFinished": "2018-11-06 23:41:08.661",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "numbersSq.collect()",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-06 23:41:17.512",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "res14: Array[Int] \u003d Array(100, 400, 900, 1600, 2500)\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.108:4040/jobs/job?id\u003d0"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1541522467497_-541889867",
+      "id": "20181106-234107_288722353",
+      "dateCreated": "2018-11-06 23:41:07.497",
+      "dateStarted": "2018-11-06 23:41:17.557",
+      "dateFinished": "2018-11-06 23:41:19.856",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "val reversed \u003d numbersSq.map(_.toString.reverse)",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-06 23:41:43.616",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "reversed: org.apache.spark.rdd.RDD[String] \u003d MapPartitionsRDD[5] at map at \u003cconsole\u003e:29\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1541522477512_-109874459",
+      "id": "20181106-234117_327999874",
+      "dateCreated": "2018-11-06 23:41:17.512",
+      "dateStarted": "2018-11-06 23:41:43.685",
+      "dateFinished": "2018-11-06 23:41:44.971",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "reversed.collect()",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-06 23:41:51.782",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "res17: Array[String] \u003d Array(001, 004, 009, 0061, 0052)\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.108:4040/jobs/job?id\u003d1"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1541522503616_-824807807",
+      "id": "20181106-234143_1946079644",
+      "dateCreated": "2018-11-06 23:41:43.616",
+      "dateStarted": "2018-11-06 23:41:51.849",
+      "dateFinished": "2018-11-06 23:41:52.774",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "val clientidPath \u003d \"/home/tt/Software/spark-2.3.2-bin-hadoop2.7/data/spark-in-action/client-ids.log\"",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-06 23:47:20.377",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "clientidPath: String \u003d /home/tt/Software/spark-2.3.2-bin-hadoop2.7/data/spark-in-action/client-ids.log\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1541522511782_1784226988",
+      "id": "20181106-234151_935226995",
+      "dateCreated": "2018-11-06 23:41:51.782",
+      "dateStarted": "2018-11-06 23:47:20.433",
+      "dateFinished": "2018-11-06 23:47:20.912",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "val lines \u003d sc.textFile(clientidPath)",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-06 23:47:52.929",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "lines: org.apache.spark.rdd.RDD[String] \u003d /home/tt/Software/spark-2.3.2-bin-hadoop2.7/data/spark-in-action/client-ids.log MapPartitionsRDD[7] at textFile at \u003cconsole\u003e:27\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1541522840377_-345245716",
+      "id": "20181106-234720_1087357835",
+      "dateCreated": "2018-11-06 23:47:20.377",
+      "dateStarted": "2018-11-06 23:47:52.997",
+      "dateFinished": "2018-11-06 23:47:54.651",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// split by comma \nval idsStr \u003d lines.map(line \u003d\u003e line.split(\",\"))",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-06 23:48:35.688",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "idsStr: org.apache.spark.rdd.RDD[Array[String]] \u003d MapPartitionsRDD[8] at map at \u003cconsole\u003e:31\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1541522872929_-2142935476",
+      "id": "20181106-234752_407008137",
+      "dateCreated": "2018-11-06 23:47:52.929",
+      "dateStarted": "2018-11-06 23:48:35.752",
+      "dateFinished": "2018-11-06 23:48:36.506",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "idsStr.first",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-06 23:48:49.607",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "res23: Array[String] \u003d Array(15, 16, 20, 20)\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.108:4040/jobs/job?id\u003d2"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1541522915688_-244291340",
+      "id": "20181106-234835_1576849583",
+      "dateCreated": "2018-11-06 23:48:35.688",
+      "dateStarted": "2018-11-06 23:48:49.685",
+      "dateFinished": "2018-11-06 23:48:50.786",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "idsStr.collect()",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-06 23:48:59.687",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "res25: Array[Array[String]] \u003d Array(Array(15, 16, 20, 20), Array(77, 80, 94), Array(94, 98, 16, 31), Array(31, 15, 20))\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.108:4040/jobs/job?id\u003d3"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1541522929607_-436338571",
+      "id": "20181106-234849_1735606686",
+      "dateCreated": "2018-11-06 23:48:49.607",
+      "dateStarted": "2018-11-06 23:48:59.756",
+      "dateFinished": "2018-11-06 23:49:00.438",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "val ids \u003d lines.flatMap(x \u003d\u003e x.split(\",\"))",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-06 23:51:43.227",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "ids: org.apache.spark.rdd.RDD[String] \u003d MapPartitionsRDD[9] at flatMap at \u003cconsole\u003e:29\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1541522939687_2082126352",
+      "id": "20181106-234859_2109986851",
+      "dateCreated": "2018-11-06 23:48:59.687",
+      "dateStarted": "2018-11-06 23:51:43.285",
+      "dateFinished": "2018-11-06 23:51:44.452",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "ids.collect()",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-06 23:51:50.691",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "res28: Array[String] \u003d Array(15, 16, 20, 20, 77, 80, 94, 94, 98, 16, 31, 31, 15, 20)\n"
+          }
+        ]
+      },
       "runtimeInfos": {
         "jobUrl": {
           "propertyName": "jobUrl",
@@ -443,11 +1003,566 @@
         }
       },
       "apps": [],
-      "jobName": "paragraph_1541439118126_-431683092",
-      "id": "20181106-003158_145943847",
-      "dateCreated": "2018-11-06 00:31:58.126",
-      "dateStarted": "2018-11-06 00:32:10.553",
-      "dateFinished": "2018-11-06 00:32:11.464",
+      "jobName": "paragraph_1541523088676_995855038",
+      "id": "20181106-235128_967869621",
+      "dateCreated": "2018-11-06 23:51:28.676",
+      "dateStarted": "2018-11-06 23:51:50.759",
+      "dateFinished": "2018-11-06 23:51:51.366",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "val intIds \u003d ids.map(x\u003d\u003ex.toInt)",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-06 23:53:27.882",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "intIds: org.apache.spark.rdd.RDD[Int] \u003d MapPartitionsRDD[10] at map at \u003cconsole\u003e:31\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1541523194444_910463200",
+      "id": "20181106-235314_314520178",
+      "dateCreated": "2018-11-06 23:53:14.445",
+      "dateStarted": "2018-11-06 23:53:27.921",
+      "dateFinished": "2018-11-06 23:53:28.589",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// call distint \nval uniqueIds \u003d intIds.distinct",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-06 23:53:50.210",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "uniqueIds: org.apache.spark.rdd.RDD[Int] \u003d MapPartitionsRDD[13] at distinct at \u003cconsole\u003e:35\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1541523110691_-1672300648",
+      "id": "20181106-235150_1626712679",
+      "dateCreated": "2018-11-06 23:51:50.691",
+      "dateStarted": "2018-11-06 23:53:50.261",
+      "dateFinished": "2018-11-06 23:53:50.761",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "uniqueIds.count",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-06 23:54:07.042",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "res35: Long \u003d 8\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.108:4040/jobs/job?id\u003d5"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1541523223250_2070528899",
+      "id": "20181106-235343_1460464187",
+      "dateCreated": "2018-11-06 23:53:43.250",
+      "dateStarted": "2018-11-06 23:54:07.097",
+      "dateFinished": "2018-11-06 23:54:08.241",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "uniqueIds.collect()",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-06 23:59:52.352",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "res47: Array[Int] \u003d Array(16, 80, 98, 20, 94, 15, 77, 31)\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.108:4040/jobs/job?id\u003d9"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1541523584729_-829645816",
+      "id": "20181106-235944_1174107948",
+      "dateCreated": "2018-11-06 23:59:44.729",
+      "dateStarted": "2018-11-06 23:59:52.395",
+      "dateFinished": "2018-11-06 23:59:52.751",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "ids.count",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-06 23:54:17.169",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "res37: Long \u003d 14\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.108:4040/jobs/job?id\u003d6"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1541523247042_1172053089",
+      "id": "20181106-235407_706889591",
+      "dateCreated": "2018-11-06 23:54:07.042",
+      "dateStarted": "2018-11-06 23:54:17.262",
+      "dateFinished": "2018-11-06 23:54:17.686",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md \n### 2.3.3 RDD sample, take, takeSample",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-06 23:56:07.301",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003e2.3.3 RDD sample, take, takeSample\u003c/h3\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1541523257169_-200330168",
+      "id": "20181106-235417_379193910",
+      "dateCreated": "2018-11-06 23:54:17.169",
+      "dateStarted": "2018-11-06 23:56:07.309",
+      "dateFinished": "2018-11-06 23:56:07.354",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "// we reuse uniqueIds from above \nval s \u003d uniqueIds.sample(false, 0.3)",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-06 23:58:20.284",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "s: org.apache.spark.rdd.RDD[Int] \u003d PartitionwiseSampledRDD[14] at sample at \u003cconsole\u003e:37\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1541523367216_1359940271",
+      "id": "20181106-235607_596290529",
+      "dateCreated": "2018-11-06 23:56:07.216",
+      "dateStarted": "2018-11-06 23:58:20.325",
+      "dateFinished": "2018-11-06 23:58:20.806",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "s.collect()",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-06 23:58:38.691",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "res42: Array[Int] \u003d Array(80, 98, 31)\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.108:4040/jobs/job?id\u003d7"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1541523494045_1866429627",
+      "id": "20181106-235814_1180528652",
+      "dateCreated": "2018-11-06 23:58:14.045",
+      "dateStarted": "2018-11-06 23:58:38.762",
+      "dateFinished": "2018-11-06 23:58:40.170",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "val swr \u003d uniqueIds.sample(true, 0.51)",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-07 00:01:28.169",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "swr: org.apache.spark.rdd.RDD[Int] \u003d PartitionwiseSampledRDD[19] at sample at \u003cconsole\u003e:35\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1541523518691_1418878329",
+      "id": "20181106-235838_1012688806",
+      "dateCreated": "2018-11-06 23:58:38.691",
+      "dateStarted": "2018-11-07 00:01:28.220",
+      "dateFinished": "2018-11-07 00:01:28.548",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "swr.collect()",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-07 00:01:29.152",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "res65: Array[Int] \u003d Array(16, 98, 98, 15, 77, 31)\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.108:4040/jobs/job?id\u003d16"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1541523552386_373417084",
+      "id": "20181106-235912_479190126",
+      "dateCreated": "2018-11-06 23:59:12.386",
+      "dateStarted": "2018-11-07 00:01:29.188",
+      "dateFinished": "2018-11-07 00:01:29.555",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "val taken \u003d uniqueIds.takeSample(false, 5)",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-07 00:02:34.587",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "taken: Array[Int] \u003d Array(80, 20, 15, 77, 16)\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.108:4040/jobs/job?id\u003d17",
+            "http://192.168.0.108:4040/jobs/job?id\u003d18"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1541523559561_1831035941",
+      "id": "20181106-235919_1179198291",
+      "dateCreated": "2018-11-06 23:59:19.561",
+      "dateStarted": "2018-11-07 00:02:34.624",
+      "dateFinished": "2018-11-07 00:02:35.066",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "uniqueIds.take(2)",
+      "user": "anonymous",
+      "dateUpdated": "2018-11-07 00:03:24.745",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "res78: Array[Int] \u003d Array(16, 80)\n"
+          }
+        ]
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "http://192.168.0.108:4040/jobs/job?id\u003d24"
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "apps": [],
+      "jobName": "paragraph_1541523746835_-647244190",
+      "id": "20181107-000226_970304820",
+      "dateCreated": "2018-11-07 00:02:26.835",
+      "dateStarted": "2018-11-07 00:03:24.782",
+      "dateFinished": "2018-11-07 00:03:25.091",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -459,14 +1574,14 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1541439130502_804679844",
-      "id": "20181106-003210_1162700618",
-      "dateCreated": "2018-11-06 00:32:10.502",
+      "jobName": "paragraph_1541523794249_1465491837",
+      "id": "20181107-000314_1967832618",
+      "dateCreated": "2018-11-07 00:03:14.249",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
   ],
-  "name": "Spark_In_Action_study/chapter2",
+  "name": "Spark_In_Action_study/chapter2.3",
   "id": "2DWWT9QPQ",
   "noteParams": {},
   "noteForms": {},
